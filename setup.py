@@ -6,7 +6,7 @@ with open("README.md", 'r') as f:
 
 setuptools.setup(
     name="abrade",
-    version="0.1.0",
+    version="0.1.1",
     author="Dan Lewis",
     author_email="D@nLew.is",
     description="A simple, generic web scraper and parser",

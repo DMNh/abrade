@@ -8,9 +8,9 @@ Parser  - Handles fetching specified properties from basic soup properties and
 from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
-from exceptions import InvalidElementAttribute, NoSuchParser
+from abrade.exceptions import InvalidElementAttribute, NoSuchParser
 
-__version__ = "1.0.0"
+__version__ = "0.1.1"
 DEFAULT_SOUP_PARSER = "html5lib"
 USER_AGENT = f"{__name__}/{__version__}"
 
