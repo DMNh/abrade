@@ -1,0 +1,4 @@
+.coverage
+abrade.egg-info
+build/
+dist/
