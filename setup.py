@@ -15,9 +15,9 @@ setuptools.setup(
     url="https://github.com/DMNh/abrade",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python3 :: 3",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Indepenent",
+        "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
     install_requires=[
